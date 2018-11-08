@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
 }
 
 *, *::before, *::after {
@@ -8,8 +9,22 @@ html {
 
 .banner {
   position: relative;
+  max-height: 500px;
 }
 
 .banner-content {
   position: absolute;
+  bottom: 0;
+  max-width: 50em;
+}
+
+h2 {
+  color: #fff;
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 2rem;
+  font-style: italic;
 }
