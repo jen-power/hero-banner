@@ -16,6 +16,7 @@ body {
   position: relative;
   max-height: 500px;
   overflow: hidden;
+  width: 100%
 }
 
 .banner-content {
